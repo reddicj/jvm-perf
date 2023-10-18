@@ -119,7 +119,7 @@ class ProjectBenchmark {
   }
 
   object benchmark2 {
-    import net.degoes.dataset6.*
+    import net.degoes.dataset7.*
 
     var dataset: Dataset = _
 
@@ -153,7 +153,7 @@ class ProjectBenchmark {
   @Setup
   def setupFast(): Unit = {
     import benchmark2.*
-    import net.degoes.dataset6.*
+    import net.degoes.dataset7.*
 
     val rng: Random = new Random(0L)
 
